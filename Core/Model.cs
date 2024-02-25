@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    internal class Model
+    public class Model
     {
+        public static string GetHelloWorld()
+        {
+            return "Hello, World!";
+        }
     }
 }

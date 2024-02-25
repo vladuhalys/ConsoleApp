@@ -6,7 +6,10 @@ namespace TestConsoleApp
         [TestMethod]
         public void Test1()
         {
-
+            //Act
+            string result = Core.Model.GetHelloWorld();
+            //Assert
+            Assert.AreEqual("Hello, World!", result);
         }
     }
 }
